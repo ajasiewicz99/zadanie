@@ -11,7 +11,6 @@ use Symfony\Component\Routing\Annotation\Route;
 
 class OrderController extends AbstractController
 {
-
     public function __construct(private readonly OrderService $orderService)
     {
     }
